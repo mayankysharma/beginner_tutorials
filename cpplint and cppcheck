@@ -1,0 +1,71 @@
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order subscriber_member_function.cpp
+subscriber_member_function.cpp:25:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+subscriber_member_function.cpp:26:  public: should be indented +1 space inside class MinimalSubscriber  [whitespace/indent] [3]
+subscriber_member_function.cpp:35:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+subscriber_member_function.cpp:40:  private: should be indented +1 space inside class MinimalSubscriber  [whitespace/indent] [3]
+subscriber_member_function.cpp:48:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+subscriber_member_function.cpp:55:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+subscriber_member_function.cpp:56:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+Done processing subscriber_member_function.cpp
+Total errors found: 7
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order subscriber_member_function.cpp
+subscriber_member_function.cpp:31:  Missing space before {  [whitespace/braces] [5]
+subscriber_member_function.cpp:45:  Missing space before {  [whitespace/braces] [5]
+subscriber_member_function.cpp:51:  Missing space before {  [whitespace/braces] [5]
+subscriber_member_function.cpp:52:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+Done processing subscriber_member_function.cpp
+Total errors found: 4
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order subscriber_member_function.cpp
+Done processing subscriber_member_function.cpp
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order publisher_member_function.cpp
+publisher_member_function.cpp:28:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:29:  public: should be indented +1 space inside class MinimalPublisher  [whitespace/indent] [3]
+publisher_member_function.cpp:34:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:36:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+publisher_member_function.cpp:44:  private: should be indented +1 space inside class MinimalPublisher  [whitespace/indent] [3]
+publisher_member_function.cpp:50:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:52:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+publisher_member_function.cpp:65:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+Done processing publisher_member_function.cpp
+Total errors found: 8
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order publisher_member_function.cpp
+publisher_member_function.cpp:33:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:34:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+publisher_member_function.cpp:36:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:38:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:48:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:50:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing publisher_member_function.cpp
+Total errors found: 6
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order publisher_member_function.cpp
+publisher_member_function.cpp:33:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:34:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+publisher_member_function.cpp:36:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:38:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:48:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:50:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing publisher_member_function.cpp
+Total errors found: 6
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order publisher_member_function.cpp
+publisher_member_function.cpp:33:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:34:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+publisher_member_function.cpp:36:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:38:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+publisher_member_function.cpp:48:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:50:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing publisher_member_function.cpp
+Total errors found: 6
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order publisher_member_function.cpp
+publisher_member_function.cpp:34:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+publisher_member_function.cpp:48:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+publisher_member_function.cpp:50:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing publisher_member_function.cpp
+Total errors found: 3
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ ~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order subscriber_member_function.cpp
+Done processing subscriber_member_function.cpp
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ cppcheck --enable=all --std=c++17 --suppress=missingIncludeSystem publisher_member_function.cpp
+Checking publisher_member_function.cpp ...
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ cppcheck --enable=all --std=c++17 --suppress=missingIncludeSystem subscriber_member_function.cpp 
+Checking subscriber_member_function.cpp ...
+mys@MYS:~/ros2_ws/src/cpp_pubsub/src$ 
+
