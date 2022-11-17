@@ -41,7 +41,6 @@ In this directory ```ros2_ws/src/cpp_pubsub/src```
 Enter name of file  in ten ```.cpp ``` and then run the command
 ```~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order name.cpp
 ```
-The results of running ```cpplint``` can be found in ```/results/cpplint.txt```.
 
 #### cppcheck
 In this directory ```ros2_ws/src/cpp_pubsub/src```
