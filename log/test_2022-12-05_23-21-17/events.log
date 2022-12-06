@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict([('beginner_tutorials', '/home/mys/GIIT/beginner_tutorials/install/beginner_tutorials')])}
+[0.000703] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.099302] (-) TimerEvent: {}
+[0.105458] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 0}
+[0.106618] (-) EventReactorShutdown: {}

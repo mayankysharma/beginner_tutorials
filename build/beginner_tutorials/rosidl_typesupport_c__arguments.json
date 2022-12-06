@@ -1,0 +1,17 @@
+{
+  "package_name": "beginner_tutorials",
+  "output_dir": "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_c/beginner_tutorials",
+  "template_dir": "/home/mys/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials:srv/UpdateMessage.idl"
+  ],
+  "target_dependencies": [
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py",
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/home/mys/ros2_humble/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials/srv/UpdateMessage.idl"
+  ]
+}

@@ -1,50 +1,80 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-This repository contains beginner tutorials in C++ for a publisher and subscriber node in ROS for custom string message
+# ENPM808X - Week 11 Assignment : Programming Assignment - ROS 2 tf2, unit testing, bag files
+
+## Overview and Description
+
+Publisher/Subscriber package for ROS2 written in C++
+
 
 ## Dependencies
-* ROS Noetic
-* Ubuntu 20.04
-* OS: Ubuntu Linux Focal (20.04) 64-bit
-* ROS2 Distro: Humble
-* ROS2 Workspace name: ros2_ws 
-* ROS2 Installation Directory: ros2_humble
+ROS2 Humble package is created and tested on ubuntu 20.02 (Linux).
+The colcon build is used for building the package. To run, build and source ROS2 Humble
 
-## Instructions to build and run the package
 
-``` cd <path-to-ROS2-workspace>/ros2_ws/src
+## To build the package
+
+```
+cd <path-to-ROS2-workspace>/ros2_ws/src
+git clone https://github.com/adarshmalapaka/beginner_tutorials.git
+cd ..  
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build --packages-select beginner_tutorials
 ```
-### Run the Publisher
-
-In a new terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
-``` 
-cd <path-to-ROS2-workspace>/ros2_ws/src
-. install/setup.bash
-ros2 run beginner_tutorials talker
+## Run Commands
 ```
-
-### Run the Subscriber
-
-In another terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
+In a terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
+```
 ```
 cd <path-to-ROS2-workspace>/ros2_ws
 . install/setup.bash
-ros2 run beginner_tutorials listener
+ros2 launch beginner_tutorials pubsub_service_launch.yaml
 ```
 
-Enter ```Ctrl+c``` in each terminal to stop the nodes from spinning.
+### Changing Parameters
 
-#### cpplint 
-In this directory ```ros2_ws/src/cpp_pubsub/src```
-Enter name of file  in ten ```.cpp ``` and then run the command
-```~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order name.cpp
+You can do either of the following
+* publishing double Frequency of the publisher node.
+* queue size double Queue size of the nodes 
+
+For example:
+In a new terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
+```
+cd <path-to-ROS2-workspace>/ros2_ws
+. install/setup.bash
+ros2 launch beginner_tutorials pubsub_service_launch.yaml pub_freq:=7.0
+```
+## To run Cpplint
+ 
+ ```
+cd ros2_ws/src
+run_cpplint.sh
 ```
 
-#### cppcheck
-In this directory ```ros2_ws/src/cpp_pubsub/src```
-Enter name of file  in ten ```name.cpp ``` and then run the command
+## To run Cppcheck
 ```
-cppcheck --enable=all --std=c++17 --suppress=missingIncludeSystem name.cpp 
+cd ros2_ws/src/
+run_cppcheck.sh
 ```
+## RQT Console
+* Run the following command
+```
+ros2 run rqt_console rqt_console
+```
+
+### ROS2 bag recording
+
+To record the ros2 bag you need to do the following
+```
+ros2 run beginner_tutorials talker
+ros2 launch beginner_tutorials rosbag_launch.py record_all_topics:=true
+```
+The recorded ros2 bag can be found in the result directory
+
+## Level 2 Gtest:
+Run the following commands after being in ros2_ws and sourcing setup file
+```
+colcon test --event-handlers console_direct+ --packages-select beginner_tutorials
+```
+### Issues
+* Was not able to record anything in the ros tf2. "No tf recorded" is what I am having in output. It can be seen in the results directory
