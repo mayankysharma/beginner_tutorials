@@ -4,7 +4,7 @@
 
 ## Overview and Description
 
-An example of Publisher/Subscriber package for ROS2 written in C++
+Publisher/Subscriber package for ROS2 written in C++
 
 
 ## Dependencies
@@ -14,46 +14,38 @@ The colcon build is used for building the package. To run, build and source ROS2
 
 ## To build the package
 
-In new tutorial:
 ```
-mkdir ros2_ws/src
-cd ros2_ws/src
-git clone <repo>
-cd ..
-source <path to ros2 setup>/install/setup.bash    
-colcon build
-source install/setup.bash
+cd <path-to-ROS2-workspace>/ros2_ws/src
+git clone https://github.com/adarshmalapaka/beginner_tutorials.git
+cd ..  
+rosdep install -i --from-path src --rosdistro humble -y
+colcon build --packages-select beginner_tutorials
 ```
-For publisher in new terminal:
+## Run Commands
 ```
-cd ros2_ws
-source <path to ros2 setup>/install/setup.bash    
-source install/setup.bash
-ros2 run cpp_pubsub talker
+In a terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
 ```
-Parallely open new terminal:
-```
-cd ros2_ws
-source <path to ros2 setup>/install/setup.bash    
-source install/setup.bash
-ros2 run cpp_pubsub listener
-```
-## Service
-```
-ros2 run cpp_srvcli server
+cd <path-to-ROS2-workspace>/ros2_ws
+. install/setup.bash
+ros2 launch beginner_tutorials pubsub_service_launch.yaml
 ```
 
-## Client
+### Changing Parameters
+
+You can do either of the following
+* ```pub_freq```: double Frequency (in Hz) of the publisher node.
+* ```queue_size```: double Queue size of the nodes (publisher and subscriber).
+
+For example:
+In a new terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
 ```
-ros2 run cpp_srvcli client 2 3
-```
-## Launch 
-```
-cd launch
-ros2 launch my_launch.yaml
+cd <path-to-ROS2-workspace>/ros2_ws
+. install/setup.bash
+ros2 launch beginner_tutorials pubsub_service_launch.yaml pub_freq:=7.0
 ```
 ## To run Cpplint
-```
+ 
+ ```
 cd ros2_ws/src
 run_cpplint.sh
 ```
@@ -63,11 +55,10 @@ run_cpplint.sh
 cd ros2_ws/src/
 run_cppcheck.sh
 ```
-## Logging
-* Invoke rqt console GUI
+## RQT Console
+* Run the following command
 ```
-rqt_console
+ros2 run rqt_console rqt_console
+
 ```
-```
-rqt_graph
-```
+Results can be seen in the results directory
