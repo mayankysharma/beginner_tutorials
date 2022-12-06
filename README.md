@@ -61,4 +61,25 @@ run_cppcheck.sh
 ros2 run rqt_console rqt_console
 
 ```
+### ROS2 bag recording
+
+To record the ros2 bag you need to do the following
+```
+ros2 run beginner_tutorials talker
+
+```
+then 
+```
+ros2 launch beginner_tutorials rosbag_launch.py record_all_topics:=true
+
+```
+The recorded ros2 bag can be found in the result directory
+
 Results can be seen in the results directory
+## Level 2 Gtest:
+Run the following commands after being in ros2_ws and sourcing setup file
+```
+colcon test --event-handlers console_direct+ --packages-select beginner_tutorials
+```
+### Issues
+* Was not able to record anything in the ros tf2. "No tf recorded" is what I am having in output. It can be seen in the results directory
