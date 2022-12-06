@@ -4,7 +4,7 @@
 
 ## Overview and Description
 
-Publisher/Subscriber package for ROS2 written in C++
+publisher/Subscriber package for ROS2 written in C++
 
 
 ## Dependencies
