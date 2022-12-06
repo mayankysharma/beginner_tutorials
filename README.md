@@ -60,7 +60,7 @@ run_cppcheck.sh
 ```
 ros2 run rqt_console rqt_console
 
-```
+
 ### ROS2 bag recording
 
 To record the ros2 bag you need to do the following
