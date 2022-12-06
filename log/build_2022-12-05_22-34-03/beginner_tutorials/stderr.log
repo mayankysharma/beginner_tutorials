@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeCache.txt is different than the directory /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

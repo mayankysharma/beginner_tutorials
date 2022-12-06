@@ -1,9 +1,9 @@
 {
   "package_name": "beginner_tutorials",
-  "output_dir": "/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c/beginner_tutorials",
+  "output_dir": "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c/beginner_tutorials",
   "template_dir": "/home/mys/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials:srv/UpdateMessage.idl"
+    "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials:srv/UpdateMessage.idl"
   ],
   "target_dependencies": [
     "/home/mys/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/home/mys/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/home/mys/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/home/mys/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials/srv/UpdateMessage.idl"
+    "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_adapter/beginner_tutorials/srv/UpdateMessage.idl"
   ]
 }

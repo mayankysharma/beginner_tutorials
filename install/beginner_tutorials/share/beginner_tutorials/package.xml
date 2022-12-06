@@ -3,8 +3,8 @@
 <package format="3">
   <name>beginner_tutorials</name>
   <version>0.0.0</version>
-  <description>First Publisher/Subscriber</description>
-  <maintainer email="adarshmalapaka98@gmail.com">adarsh</maintainer>
+  <description>Programming Assignment - ROS 2 tf2, unit testing, bag files</description>
+  <maintainer email="sharmamayank1301@gmail.com">MayankSharma</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/mys/GIIT/beginner_tutorials/include/beginner_tutorials/MinimalSubscriber.hpp
+memory
+-
+rclcpp/logging.hpp
+-
+rclcpp/rclcpp.hpp
+/home/mys/GIIT/beginner_tutorials/include/beginner_tutorials/rclcpp/rclcpp.hpp
+std_msgs/msg/string.hpp
+/home/mys/GIIT/beginner_tutorials/include/beginner_tutorials/std_msgs/msg/string.hpp
+
+/home/mys/GIIT/beginner_tutorials/src/subscriber_member_function.cpp
+string
+-
+../include/beginner_tutorials/MinimalSubscriber.hpp
+/home/mys/GIIT/beginner_tutorials/include/beginner_tutorials/MinimalSubscriber.hpp
+
 /home/mys/ros2_humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
 algorithm
 -
@@ -4807,20 +4823,4 @@ tracetools/config.h
 /home/mys/ros2_humble/install/tracetools/include/tracetools/tracetools/tracetools/config.h
 
 /home/mys/ros2_humble/install/tracetools/include/tracetools/tracetools/visibility_control.hpp
-
-/home/mys/ros2_ws/L/beginner_tutorials/include/beginner_tutorials/MinimalSubscriber.hpp
-memory
--
-rclcpp/logging.hpp
--
-rclcpp/rclcpp.hpp
-/home/mys/ros2_ws/L/beginner_tutorials/include/beginner_tutorials/rclcpp/rclcpp.hpp
-std_msgs/msg/string.hpp
-/home/mys/ros2_ws/L/beginner_tutorials/include/beginner_tutorials/std_msgs/msg/string.hpp
-
-/home/mys/ros2_ws/L/beginner_tutorials/src/subscriber_member_function.cpp
-string
--
-../include/beginner_tutorials/MinimalSubscriber.hpp
-/home/mys/ros2_ws/L/beginner_tutorials/include/beginner_tutorials/MinimalSubscriber.hpp
 

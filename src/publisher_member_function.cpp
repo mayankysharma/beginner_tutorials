@@ -76,7 +76,7 @@ MinimalPublisher::MinimalPublisher(): Node("minimal_publisher"), count_(0) {
        service_ = create_service<beginner_tutorials::srv::UpdateMessage>(
                     "update_message", serviceCallbackPtr);
 
-       publish_message_ = "Custom String Message for Printing";
+       publish_message_ = "Printing number";
 }
 
 void MinimalPublisher::timer_callback() {

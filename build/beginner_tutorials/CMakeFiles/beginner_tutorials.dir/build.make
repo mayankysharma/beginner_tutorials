@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mys/ros2_ws/L/beginner_tutorials
+CMAKE_SOURCE_DIR = /home/mys/GIIT/beginner_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials
+CMAKE_BINARY_DIR = /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials
 
 # Utility rule file for beginner_tutorials.
 
@@ -73,6 +73,6 @@ CMakeFiles/beginner_tutorials.dir/clean:
 .PHONY : CMakeFiles/beginner_tutorials.dir/clean
 
 CMakeFiles/beginner_tutorials.dir/depend:
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/ros2_ws/L/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/CMakeFiles/beginner_tutorials.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/GIIT/beginner_tutorials /home/mys/GIIT/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeFiles/beginner_tutorials.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/beginner_tutorials.dir/depend
 

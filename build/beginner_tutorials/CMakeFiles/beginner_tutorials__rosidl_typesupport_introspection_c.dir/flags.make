@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_beginner_tutorials -DROS_PACKAGE_NAME=\"beginner_tutorials\"
 
-C_INCLUDES = -I/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_c -I/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c -isystem /home/mys/ros2_humble/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/mys/ros2_humble/install/rcutils/include/rcutils -isystem /home/mys/ros2_humble/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -isystem /home/mys/ros2_humble/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c 
+C_INCLUDES = -I/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_typesupport_introspection_c -I/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_generator_c -isystem /home/mys/ros2_humble/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /home/mys/ros2_humble/install/rcutils/include/rcutils -isystem /home/mys/ros2_humble/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -isystem /home/mys/ros2_humble/install/rosidl_typesupport_introspection_c/include/rosidl_typesupport_introspection_c 
 

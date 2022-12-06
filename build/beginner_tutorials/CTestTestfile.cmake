@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/mys/ros2_ws/L/beginner_tutorials
-# Build directory: /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials
+# Source directory: /home/mys/GIIT/beginner_tutorials
+# Build directory: /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

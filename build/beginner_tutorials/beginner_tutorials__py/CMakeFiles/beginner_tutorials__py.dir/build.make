@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mys/ros2_ws/L/beginner_tutorials
+CMAKE_SOURCE_DIR = /home/mys/GIIT/beginner_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials
+CMAKE_BINARY_DIR = /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials
 
 # Utility rule file for beginner_tutorials__py.
 
@@ -75,8 +75,8 @@ rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesuppo
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c: /home/mys/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c: /home/mys/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c: rosidl_adapter/beginner_tutorials/srv/UpdateMessage.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py && /usr/bin/python3 /home/mys/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py && /usr/bin/python3 /home/mys/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_c"
 
 rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_introspection_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/beginner_tutorials/_beginner_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -110,10 +110,10 @@ beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/build: beginner_tut
 .PHONY : beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/build
 
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/clean:
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials__py.dir/cmake_clean.cmake
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials__py.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/clean
 
 beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/depend:
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/ros2_ws/L/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/GIIT/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials__py/CMakeFiles/beginner_tutorials__py.dir/depend
 

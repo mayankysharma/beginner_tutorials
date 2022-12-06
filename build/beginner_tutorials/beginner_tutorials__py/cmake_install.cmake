@@ -1,8 +1,8 @@
-# Install script for directory: /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py
+# Install script for directory: /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/beginner_tutorials__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mys/ros2_ws/L/beginner_tutorials/install/beginner_tutorials")
+  set(CMAKE_INSTALL_PREFIX "/home/mys/GIIT/beginner_tutorials/install/beginner_tutorials")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

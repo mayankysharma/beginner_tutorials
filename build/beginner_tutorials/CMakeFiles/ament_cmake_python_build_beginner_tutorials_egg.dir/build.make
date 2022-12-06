@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mys/ros2_ws/L/beginner_tutorials
+CMAKE_SOURCE_DIR = /home/mys/GIIT/beginner_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials
+CMAKE_BINARY_DIR = /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials
 
 # Utility rule file for ament_cmake_python_build_beginner_tutorials_egg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutoria
 include CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg:
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/ament_cmake_python/beginner_tutorials && /usr/bin/python3.8 setup.py egg_info
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/ament_cmake_python/beginner_tutorials && /usr/bin/python3.8 setup.py egg_info
 
 ament_cmake_python_build_beginner_tutorials_egg: CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg
 ament_cmake_python_build_beginner_tutorials_egg: CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/depend:
-	cd /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/ros2_ws/L/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials /home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mys/GIIT/beginner_tutorials /home/mys/GIIT/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials /home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_beginner_tutorials_egg.dir/depend
 

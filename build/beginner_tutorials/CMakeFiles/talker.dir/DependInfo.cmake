@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mys/ros2_ws/L/beginner_tutorials/src/publisher_member_function.cpp" "/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
+  "/home/mys/GIIT/beginner_tutorials/src/publisher_member_function.cpp" "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -48,7 +48,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mys/ros2_ws/L/beginner_tutorials/build/beginner_tutorials/CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/DependInfo.cmake"
+  "/home/mys/GIIT/beginner_tutorials/build/beginner_tutorials/CMakeFiles/beginner_tutorials__rosidl_typesupport_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

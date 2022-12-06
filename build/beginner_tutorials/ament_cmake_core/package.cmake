@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "beginner_tutorials")
 set(beginner_tutorials_VERSION "0.0.0")
-set(beginner_tutorials_MAINTAINER "adarsh <adarshmalapaka98@gmail.com>")
+set(beginner_tutorials_MAINTAINER "MayankSharma <sharmamayank1301@gmail.com>")
 set(beginner_tutorials_BUILD_DEPENDS "rosidl_default_generators" "rclcpp" "std_msgs")
 set(beginner_tutorials_BUILDTOOL_DEPENDS "ament_cmake")
 set(beginner_tutorials_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")
