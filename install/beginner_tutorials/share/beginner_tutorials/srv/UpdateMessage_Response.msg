@@ -1,0 +1,2 @@
+
+string new_message

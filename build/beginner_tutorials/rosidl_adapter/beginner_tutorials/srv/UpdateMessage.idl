@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from beginner_tutorials/srv/UpdateMessage.srv
+// generated code does not contain a copyright notice
+
+
+module beginner_tutorials {
+  module srv {
+    struct UpdateMessage_Request {
+      string data;
+    };
+    struct UpdateMessage_Response {
+      string new_message;
+    };
+  };
+};

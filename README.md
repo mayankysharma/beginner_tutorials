@@ -1,50 +1,73 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-This repository contains beginner tutorials in C++ for a publisher and subscriber node in ROS for custom string message
+# ENPM808X - Week 11 Assignment : Programming Assignment - ROS 2 tf2, unit testing, bag files
+
+## Overview and Description
+
+An example of Publisher/Subscriber package for ROS2 written in C++
+
 
 ## Dependencies
-* ROS Noetic
-* Ubuntu 20.04
-* OS: Ubuntu Linux Focal (20.04) 64-bit
-* ROS2 Distro: Humble
-* ROS2 Workspace name: ros2_ws 
-* ROS2 Installation Directory: ros2_humble
+ROS2 Humble package is created and tested on ubuntu 20.02 (Linux).
+The colcon build is used for building the package. To run, build and source ROS2 Humble
 
-## Instructions to build and run the package
 
-``` cd <path-to-ROS2-workspace>/ros2_ws/src
-rosdep install -i --from-path src --rosdistro humble -y
-colcon build --packages-select beginner_tutorials
+## To build the package
+
+In new tutorial:
 ```
-### Run the Publisher
-
-In a new terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
-``` 
-cd <path-to-ROS2-workspace>/ros2_ws/src
-. install/setup.bash
-ros2 run beginner_tutorials talker
+mkdir ros2_ws/src
+cd ros2_ws/src
+git clone <repo>
+cd ..
+source <path to ros2 setup>/install/setup.bash    
+colcon build
+source install/setup.bash
 ```
-
-### Run the Subscriber
-
-In another terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
+For publisher in new terminal:
 ```
-cd <path-to-ROS2-workspace>/ros2_ws
-. install/setup.bash
-ros2 run beginner_tutorials listener
+cd ros2_ws
+source <path to ros2 setup>/install/setup.bash    
+source install/setup.bash
+ros2 run cpp_pubsub talker
 ```
-
-Enter ```Ctrl+c``` in each terminal to stop the nodes from spinning.
-
-#### cpplint 
-In this directory ```ros2_ws/src/cpp_pubsub/src```
-Enter name of file  in ten ```.cpp ``` and then run the command
-```~/.local/bin/cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order name.cpp
+Parallely open new terminal:
+```
+cd ros2_ws
+source <path to ros2 setup>/install/setup.bash    
+source install/setup.bash
+ros2 run cpp_pubsub listener
+```
+## Service
+```
+ros2 run cpp_srvcli server
 ```
 
-#### cppcheck
-In this directory ```ros2_ws/src/cpp_pubsub/src```
-Enter name of file  in ten ```name.cpp ``` and then run the command
+## Client
 ```
-cppcheck --enable=all --std=c++17 --suppress=missingIncludeSystem name.cpp 
+ros2 run cpp_srvcli client 2 3
+```
+## Launch 
+```
+cd launch
+ros2 launch my_launch.yaml
+```
+## To run Cpplint
+```
+cd ros2_ws/src
+run_cpplint.sh
+```
+
+## To run Cppcheck
+```
+cd ros2_ws/src/
+run_cppcheck.sh
+```
+## Logging
+* Invoke rqt console GUI
+```
+rqt_console
+```
+```
+rqt_graph
 ```
