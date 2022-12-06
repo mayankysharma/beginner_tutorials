@@ -25,6 +25,7 @@ colcon build --packages-select beginner_tutorials
 ```
 In a terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
 ```
+```
 cd <path-to-ROS2-workspace>/ros2_ws
 . install/setup.bash
 ros2 launch beginner_tutorials pubsub_service_launch.yaml
@@ -33,8 +34,8 @@ ros2 launch beginner_tutorials pubsub_service_launch.yaml
 ### Changing Parameters
 
 You can do either of the following
-* ```pub_freq```: double Frequency (in Hz) of the publisher node.
-* ```queue_size```: double Queue size of the nodes (publisher and subscriber).
+* publishing double Frequency of the publisher node.
+* queue size double Queue size of the nodes 
 
 For example:
 In a new terminal, navigate to your ROS2 workspace (```ros2_ws```) and source the setup files,
@@ -59,23 +60,17 @@ run_cppcheck.sh
 * Run the following command
 ```
 ros2 run rqt_console rqt_console
-
+```
 
 ### ROS2 bag recording
 
 To record the ros2 bag you need to do the following
 ```
 ros2 run beginner_tutorials talker
-
-```
-then 
-```
 ros2 launch beginner_tutorials rosbag_launch.py record_all_topics:=true
-
 ```
 The recorded ros2 bag can be found in the result directory
 
-Results can be seen in the results directory
 ## Level 2 Gtest:
 Run the following commands after being in ros2_ws and sourcing setup file
 ```
