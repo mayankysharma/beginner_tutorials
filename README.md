@@ -16,7 +16,7 @@ The colcon build is used for building the package. To run, build and source ROS2
 
 ```
 cd <path-to-ROS2-workspace>/ros2_ws/src
-git clone https://github.com/adarshmalapaka/beginner_tutorials.git
+git clone repository
 cd ..  
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build --packages-select beginner_tutorials
